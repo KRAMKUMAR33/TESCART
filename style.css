@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navc1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-wrap: wrap;
+    background-color:  #123456;
+    
+}
+
+#ss{
+    display:flex;
+    list-style: none;
+    padding: 20px;
+    
+   
+}
+#ss li a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+}
+#sts a{
+   text-decoration: none;
+  
+ 
+  
+
+}
+#navc{
+
+    background-color: #123456;
+    color: white;
+    
+}
+#navc1 li a{
+
+   
+    color: white;
+}
+
+#navc1 li a:hover{
+  
+   border-bottom: 1px solid white;
+   
+
+  
+}
+#ds{
+
+   
+ background-color:white;
+ color: rgb(96, 56, 16);
+}
+
+.grid .rows {
+         display: grid;
+         grid-template-columns: 33% 33% 33%;
+         
+
+}
+
+.cols img{
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.container-flui {
+  display: flex;
+  gap: 12px;
+ 
+  width: 100%;
+  background: #4070f4;
+
+  padding: 30px;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-padding: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+.container-flui .card {
+ 
+  flex: 0 0 20%;
+ 
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  background: #fff;
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------------------------------read the top content-------------------- */
+
+#as{
+    
+    overflow-y: scroll;
+    height: 900px;
+
+}
+

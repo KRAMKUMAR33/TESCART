@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tescart</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<style>
+
+</style>
+<body>
+
+
+
+
+
+
+
+   <nav id="logo" class="container-fluid">
+    <div id="sts">
+       <a href="./index.html"><h1  style=" margin-left: 40px; color:	#1589FF;">Tes <span style="color: white ;">cart</span></h1></a> 
+    </div>
+    <div id="ss1">
+        <input type="text" style="height: 35px; width: 300px; margin-top: 12px; outline: 0; " >
+        <button style=" margin-left: 8px; padding: 6px ; border: none; width: 90px; background-color:	#0041C2; border-radius: 4px; color: white;">search</button>
+
+       
+    </div>
+    <div id="ss">
+
+
+               <!-- Button trigger modal -->
+<span style="font-weight: 500; color: white;" class="me-3" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+  <li  >Accounts</li>
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign in your account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        
+        <div class="card mt-3 mb-5">
+          <form class="px-4 py-3">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </form>
+          <div class="dropdown-divider"></div>
+         
+          <a class="dropdown-item " style="margin-left: 15px;" href="#">Forgot password?</a><br>
+        </div>
+
+
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+        
+        
+
+<!-- ==================================================orders==================================== -->
+         <!-- Button trigger modal -->
+<span style="font-weight: 500; color: white;" class="me-3" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+  <li  >Orders</li>
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Your Orders</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- ================================cart====================================== -->
+        
+        
+        <!-- Button trigger modal -->
+<span class="me-2" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+  <img height="30px" width="30px" src="./im/shopping-cart.png" alt="">
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+         
+    </div>
+   </nav>
+
+   <!-- ===========================================logo over ====================================== -->
+
+     <nav id="navc" class="navbar navbar-expand-lg  ">
+
+      
+      <div class="container-fluid">
+       
+     <button id="ds" class="navbar-toggler bg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon "></span>
+      
+     </button>
+    
+     <div   class="collapse navbar-collapse " id="navbarTogglerDemo01">
+       
+       <ul id="navc1" class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+       
+       
+         <li class="nav-item ms-5">
+           <a  class="nav-link p-0 pt-2" aria-current="page" href="./mobiles.html">Mobiles</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2" href="./electronics.html">Electronics</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2 " href="./mens.html">Mens/fashion</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2" href="#">Womens/fashion</a>
+         </li>
+         <li class="nav-item  ms-5">
+            <a class="nav-link p-0 pt-2" href="#">Beauty </a>
+          </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2 " href="#">Books</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2 " href="#">Toys</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2 " href="#">Sports</a>
+         </li>
+         <li class="nav-item  ms-5">
+           <a class="nav-link p-0 pt-2  " href="#">Kitchen </a>
+         </li>
+      
+
+        <img class="ms-5" height="50px"  width="300px" src="./im/25654-2-major-credit-card-logo-transparent.png" alt="">
+         
+         <!-- <marquee behavior="" direction="" style="color: pink;"><h3>On this great day, Tescart offers unbelievable prices like up to 90 percent off on products like Mobiles, TVs, home appliances, fashion, clothing, books, accessories, and much more.</h3></marquee> -->
+         
+        
+       </ul>
+      
+     </div>
+
+ 
+
+   </div>
+ </nav>
+
+<!-- ========================================nav over================================================= -->
+
+
+<div  class="row ms-2 ">
+ 
+    <div id="as" class="col-2 mt-3">
+        <div class="row text-center mt-3">
+            <h3>Filters</h3>
+
+        </div>
+        <div class="row ">
+            <h4>Brand</h4>
+            <span><input type="checkbox" >samsung</span>
+            <span><input type="checkbox" >nokia</span>
+            <span><input type="checkbox" >oppo</span>
+            <span><input type="checkbox" >iphone</span>
+            <span><input type="checkbox" >realme</span>
+            <span><input type="checkbox" >redmi</span>
+            <span><input type="checkbox" >poco</span>
+
+        </div>
+        <hr>
+        <div class="row">
+            <h4>Price range</h4>
+            <input type="range">
+           
+            <div class="mt-3" ><input style="width: 70px;"  placeholder="4000"  type="number"> To <input style="width: 70px;"  placeholder="4000"  type="number"></div>
+
+        </div>
+        <hr>
+        <div class="row">
+          <h4>Discount</h4>
+          <span><input type="checkbox" > 70% or more</span>
+          <span><input type="checkbox" > 60% or more</span>
+          <span><input type="checkbox" > 50% or more</span>
+          <span><input type="checkbox" > 40% or more</span>
+          <span><input type="checkbox" > 30% or more</span>
+          <span><input type="checkbox" > 20% or more</span>
+          <span><input type="checkbox" > 10% or more</span>
+
+        </div>
+        <hr>
+        <div class="row">
+          <h4>Customer ratings</h4>
+          <span><input type="checkbox" > 7 * & Above</span>
+          <span><input type="checkbox" > 6 * & Above</span>
+          <span><input type="checkbox" > 5 * & Above</span>
+          <span><input type="checkbox" > 4 * & Above</span>
+          <span><input type="checkbox" > 3 * & Above</span>
+          <span><input type="checkbox" > 2 * & Above</span>
+          <span><input type="checkbox" > 1 * & Above</span>
+
+        </div>
+
+
+    </div>
+    <div class="col-10 mt-5">
+        <div class="row">
+            <div id="col2" class="col-3 ">
+                <div class="row text-center shadow m-2 pb-3 mt-3 mb-3" >
+                    <h4>Realme narzo </h4>
+                    <img height="300px  "  src="./im/r1realmenarzo.webp" alt="">
+                    <span>Price :<del>12000</del> 9000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Techno Spark 8</h4>
+                    <img height="300px  "  src="im/r1technospark8.webp" alt="">
+                    <span>Price :<del>12000</del> 8000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Redmi 9a</h4>
+                    <img height="300px  "  src="im/r1redmi9a.webp" alt="">
+                    <span>Price :<del>12000</del> 9000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Techno 6 </h4>
+                    <img height="300px  "  src="im/r1techno6.webp" alt="">
+                    <span>Price :<del>12000</del> 10000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+        
+            </div>
+            <div class="col-3">
+                <div class="row text-center shadow m-2 pb-3 mt-3 mb-3" >
+                    <h4>IQUEE 6</h4>
+                    <img height="300px  "  src="im/r2iquee6.webp" alt="">
+                    <span>Price :<del>20000</del> 15000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Redmi note 11</h4>
+                    <img height="300px  "  src="im/r2redmi11.webp" alt="">
+                    <span>Price :<del>18000</del> 12000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Redmi note 12</h4>
+                    <img height="300px  "  src="im/r2redminote12.webp" alt="">
+                    <span>Price :<del>25000</del> 23000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Samsung M33 </h4>
+                    <img height="300px  "  src="./im/r2samsunhm33.webp" alt="">
+                    <span>Price :<del>19000</del> 18000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+        
+            </div>
+            <div class="col-3">
+                <div class="row text-center shadow m-2 pb-3 mt-3 mb-3" >
+                    <h4>IQuee z6 </h4>
+                    <img height="300px  "  src="./im/r3iqueez6.webp" alt="">
+                    <span>Price :<del>19000</del> 12000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Oppo A17K</h4>
+                    <img height="300px  "  src="im/r3oppoa17k.webp" alt="">
+                    <span>Price :<del>18000</del> 12000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Samumg M13</h4>
+                    <img height="300px  "  src="im/r3samsungm13.webp" alt="">
+                    <span>Price :<del>19000</del> 14000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Samsung m13 5g </h4>
+                    <img height="300px  "  src="im/r3samsungm135g.webp" alt="">
+                    <span>Price :<del>19000</del> 14000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+        
+            </div>
+            <div class="col-3">
+                <div class="row text-center shadow m-2 pb-3 mt-3 mb-3" >
+                    <h4>Oppo A77</h4>
+                    <img height="300px  "  src="im/r4oppoa77.jpg" alt="">
+                    <span>Price :<del>19000</del> 9900</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Oppo A77s</h4>
+                    <img height="300px  "  src="im/r4oppoa77s.jpg" alt="">
+                    <span>Price :<del>24000</del> 20000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Vivo Y22</h4>
+                    <img height="300px  "  src="im/r4vivoy34.jpg" alt="">
+                    <span>Price :<del>28000</del> 16500</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+                <div class="row text-center shadow m-2 pb-3 mb-3">
+                    <h4>Vivo Y35 </h4>
+                    <img height="300px"  src="im/r4vivoy35.jpg" alt="">
+                    <span>Price :<del>35000</del> 12000</span>
+                    <div>
+                    <a class="btn btn-warning btn-sm w-50 " href="">Add cart</a>
+                </div>
+                </div>
+        
+            </div>
+            
+              
+         
+        
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+    
+
+    <!-- ============================================footer sub=========================================== -->
+
+    <br><hr>
+     <div  class="container-fluid d-flex justify-content-center mt-5  ">
+    
+          <input style="width: 400px;" class="form-control me-3" type="text">
+          <a class="btn btn-primary"  href="">Subscribe</a>
+
+
+     </div>
+
+
+  <!-- =======================================footer======================================================= -->
+
+  <div class="container">
+    <footer class="py-2 my-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Tes cart</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms & Condition</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy policy</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 Tes cart, Inc</p>
+    </footer>
+  </div>
+
+
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script><script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
