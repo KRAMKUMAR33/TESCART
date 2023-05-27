@@ -1,4 +1,4 @@
-*{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -114,4 +114,95 @@ box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
     height: 900px;
 
 }
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navc1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-wrap: wrap;
+    background-color: #123456;
+}
+
+#ss {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+#ss li a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+}
+
+#sts a {
+    text-decoration: none;
+}
+
+#navc {
+    background-color: #123456;
+    color: white;
+}
+
+#navc1 li a {
+    color: white;
+}
+
+#navc1 li a:hover {
+    border-bottom: 1px solid white;
+}
+
+#ds {
+    background-color: white;
+    color: rgb(96, 56, 16);
+}
+
+.grid .rows {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px; /* Add gap between columns */
+}
+
+.cols img {
+    border-radius: 10px;
+    width: 100%; /* Ensure images take up the full width of the parent container */
+}
+
+.container-flui {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure the cards stay in a single line */
+    overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+    gap: 12px;
+    background: #4070f4;
+    padding: 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.container-flui .card {
+    flex: 0 0 20%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+#as {
+    overflow-y: scroll;
+    max-height: 900px; /* Set a maximum height for the scrollable area */
+}
+
 
